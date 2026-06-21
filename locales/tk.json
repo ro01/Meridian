@@ -1,0 +1,419 @@
+{
+  "meta": {
+    "langName": "Türkmençe",
+    "langCode": "tk",
+    "htmlLang": "tk",
+    "dir": "ltr",
+    "pageTitle": "Meridian Tourism DMC — Türkmenistanda syýahatçylyk"
+  },
+
+  "brand": {
+    "name": "Meridian Tourism DMC",
+    "legalName": "Sýahatçylyk kärhanasy «Meridian» / «Ak ýol»",
+    "tagline": "Özüňizi biz daýanç edip bilersiňiz"
+  },
+
+  "nav": {
+    "home": "Baş sahypa",
+    "about": "Biz barada",
+    "services": "Hyzmatlar",
+    "tours": "Sapalar",
+    "transfer": "Transfer",
+    "visa": "Wiza",
+    "tickets": "Biletler",
+    "vipEscort": "Hamkyatlyk",
+    "guides": "Gid hyzmaty",
+    "news": "Täzelikler",
+    "gallery": "Galerýa",
+    "contacts": "Habarlaşmak",
+    "cta": "Bron etmek",
+    "menuAria": "Menýuny aç",
+    "langSwitchAria": "Dili üýtget"
+  },
+
+  "hero": {
+    "kicker": "Türkmenistanyň geljekli syýahatçylygynyň öňdebaryjysy",
+    "title": "Ýüpek ýolunyň kalbyny açyň",
+    "subtitle": "Dünýä derejeli VIP hyzmat, kemsiz logistika we Merkezi Aziýanyň iň gadymy topraklarynda aýratyn sapalar.",
+    "ctaPrimary": "Sapa saýla",
+    "ctaSecondary": "Ugruklamalary gör",
+    "scrollDown": "Aşak süýräň",
+    "stats": {
+      "years": "ýyl bazarda",
+      "clients": "hoşal myhmanlar",
+      "routes": "ýtopyk ugruklama",
+      "languages": "hyzmat dili"
+    }
+  },
+
+  "buttons": {
+    "explore": "Giňişleýin",
+    "book": "Bron etmek",
+    "send": "Üpjünçilik iber",
+    "next": "Indiki",
+    "back": "Yza",
+    "contact": "Habarlaş",
+    "viewAll": "Hemmesini gör",
+    "download": "Ýüklemek",
+    "close": "Ýap",
+    "submit": "Iber"
+  },
+
+  "destinations": {
+    "title": "Meşhur ugruklamalar",
+    "subtitle": "Müňýyllyk taryh, janly meseler we Garagumň(rows) rowaýatlary",
+    "viewTour": "Sapany aç",
+    "items": {
+      "nisa": {
+        "name": "Köne Nusaý",
+        "region": "Aşgabat",
+        "tag": "ÝUNESKO",
+        "desc": "Parfiýa patyşalarynyň köşki — Köpetdagň(rows) eteginde uly imperiýanyň bäşigi."
+      },
+      "merv": {
+        "name": "Beýik Merv",
+        "region": "Mary welaýaty",
+        "tag": "ÝUNESKO",
+        "desc": "Ýüpek ýolunyň iň bäşik oazisleriniň biri, müňýyllyklarp boýy ösýän."
+      },
+      "konyeUrgench": {
+        "name": "Köneürgenç",
+        "region": "Daşoguz welaýaty",
+        "tag": "ÝUNESKO",
+        "desc": "Horezmiň paýtagty, beýik maýeoleýleri we Gadymy Gutlug-Timur minarasy bilen."
+      },
+      "darvaza": {
+        "name": "Derweze krateri",
+        "region": "Garagum çöli",
+        "tag": "Tebigat",
+        "desc": "«Garagumň(rows) ýagtylygy» — çöliň kalbynda ýanyp duran gaz krateri."
+      },
+      "yangikala": {
+        "name": "Ýangykala jarlary",
+        "region": "Balkan welaýaty",
+        "tag": "Tebigat",
+        "desc": "Gabap, gözowadypdüren ak we gyzyl ýarlar — ýurdyň iň gözel meseleriniň biri."
+      },
+      "avaza": {
+        "name": "Awaza",
+        "region": "Hazar kenary",
+        "tag": "Dynç alyş",
+        "desc": "Hazar deňziniň kenarynda, altyn gumly(plajly) ýagşy(döwlet) syýahatçylyk zony."
+      }
+    }
+  },
+
+  "servicesOverview": {
+    "title": "Premial hyzmatlar",
+    "subtitle": "Iň talapçyl myhmanlar üçin doly çözgütler",
+    "learnMore": "Giňişleýin",
+    "items": {
+      "tours": {
+        "title": "Awtor sapalar",
+        "desc": "Beýik Merwe, Nusaýa, Köneürgenje, Derweze kraterine we Ýangykala jarlaryna sapalar."
+      },
+      "transfer": {
+        "title": "Premial transfer",
+        "desc": "Biznes klasynyň transport hyzmaty, Aşgabat we Türkmenbaşy aeroportlarynda VIP garşylamaklar."
+      },
+      "visa": {
+        "title": "Wiza üpjünçiligi",
+        "desc": "Wiza, çagyryş hatlary we doly resminamalar toplumyny hünärmençilikli düzüm."
+      },
+      "tickets": {
+        "title": "Awia biletler",
+        "desc": "Halkara we içeri reýslerde Turkmenistan Airlines biletlerini baglaşmak."
+      },
+      "vipEscort": {
+        "title": "VIP hamkyatlyk",
+        "desc": "Delegasiýalaryň giňişleýin hamkyatlygy we iň ýokary derejede MICE logistikasy."
+      },
+      "guides": {
+        "title": "Gid hyzmaty",
+        "desc": "Ýüpek ýolunyň taryhyny bilýän hünärli köpdilli gidler."
+      }
+    }
+  },
+
+  "whyUs": {
+    "title": "Näme üçin Meridian",
+    "subtitle": "Adalgarlygymyzy durmuşa geçirýän esasi ýörelgeler",
+    "items": {
+      "safety": {
+        "title": "Howpsuzlyk",
+        "desc": "Sapanyň her tapgyrynda logistika we hamkyatlyk baradaky doly gözegçilik."
+      },
+      "vip": {
+        "title": "Dünýä derejeli VIP hyzmat",
+        "desc": "Her jikellige üns — aeroportdaky garşylamakdan awtor sapa çenli."
+      },
+      "reliability": {
+        "title": "Ynamdarlyk",
+        "desc": "Özüňizi biz daýanç edip bilersiňiz. Ýyldan-ýyla bazarda kemsiz iş."
+      },
+      "expertise": {
+        "title": "Ýüpek ýol ýörelgesi",
+        "desc": "Türkmenistanyň taryhynyň, medeniýetiniň we gizlin gyzyň(rows) çuňň bilimi."
+      }
+    }
+  },
+
+  "testimonials": {
+    "title": "Myhmanlaryň seslenenleri",
+    "subtitle": "Bize ýögärilen ynam",
+    "items": {
+      "t1": {
+        "quote": "Ilkinji minutdan kemsiz guralma. VIP garşylamak, jaýzzaly transport we Ýüpek ýoluň taryhyny janlandyran gid.",
+        "author": "Anri Dübuwa",
+        "role": "Biznes delegasiýasy, Fransiýa"
+      },
+      "t2": {
+        "quote": "Derweze krateri gün batanda — ýatdan çykmaz. Meridian Garagum sapamyzyň her jikiligini oýlapdyr.",
+        "author": "Mariýa Şmidt",
+        "role": "Hususy sapa, Germaniýa"
+      },
+      "t3": {
+        "quote": "Iň ýokary klasly hünärmençilik. Delegasiýmyz üçin MICE logistikasy mükemmel ýerine ýetirildi.",
+        "author": "Jeýms Karter",
+        "role": "Korporatiw müşderi, Beýik Britaniýa"
+      }
+    }
+  },
+
+  "ctaBand": {
+    "title": "Sapaňyzy bilelikde düzäliňmi?",
+    "subtitle": "Islegleriňizi aýdyň — 24 sagatlyň(dowamynda) aýratyn teklif taýýarlas.",
+    "button": "Üpjünçilik iber"
+  },
+
+  "aboutPage": {
+    "heroKicker": "Meridian barada",
+    "heroTitle": "Türkmenistanyň ynamdar ýolbeletisi",
+    "heroSubtitle": "Biz dünýä derejeli tässirleri döredýäris — müňýyllyk Ýüpek ýol taryhyny we kemsiz hyzmaty birleşdirýäris.",
+    "missionTitle": "Bizň(iş) missiýamyz",
+    "missionText": "Myhmanlara hakyky Türkmenistany açmak — howpsuz, amatly we beýik medeniýete mynasyp derejede. Logistikanyň ähli çylşyrymlygyny öz üstimize alýarys, siz bolsa sypaň her pursady lezzet alyrsyňyz.",
+    "philosophyTitle": "Brend falsifasy",
+    "philosophyText": "Meridian — Gündogar bilen Garbnyň, gadymy bilen häzirkiň(rows) çatrygy. Meridian polostralary birikdirýän ýaly, biz hem adamlary Türkmenistanyň kalby bilen birikdirýäris.",
+    "quote": "«Özüňizi biz daýanç edip bilersiňiz» — şygar däl-de, her jikilikde berjaý edýän wädämiz."
+  },
+
+  "servicesPage": {
+    "heroKicker": "Doly hyzmat toplumy",
+    "heroTitle": "Premial syýahatçylyk çözgütleri",
+    "heroSubtitle": "Wizadan VIP hamkyatlyga çenli — hemmesi bir çatda, iň ýokary derejede.",
+    "detailed": {
+      "tours": {
+        "subtitle": "Ýüpek ýol boýunça awtor ugramlar",
+        "desc": "Türkmenistanyň esasy hazynalaryna tejribeli gidler we oýlanyp düzülen logistika bilen aýratyn sapalar.",
+        "p1": "ÝUNESKE ýadygärlikleri: Merv, Nusaý, Köneürgenç",
+        "p2": "Tebigy gudratlar: Derweze we Ýangykala jarlary",
+        "p3": "Özboluşly meýilnamalar we aýratyn rugsatlar"
+      },
+      "transfer": {
+        "subtitle": "Biznes-klasyn transporty",
+        "desc": "Premial awtoulaglar, hünärmen sürüjiler we Aşgabat we Türkmenbaşy aeroportlarynda VIP garşylamaklar.",
+        "p1": "Premial sedanlar we miniwenlar",
+        "p2": "Samolýot bäsüşiginden duşgär bilen garşylamak",
+        "p3": "Sürüjili we özüň(aýlan) awtoulul kirleş"
+      },
+      "visa": {
+        "subtitle": "Açar elden wiza üpjünçiligi",
+        "desc": "Wiza, çagyryş hatlary we ähli formalçylyklary öz üstimize alýarys — çalt we sänsiz.",
+        "p1": "Syýahatçylyk we işewür wizalar",
+        "p2": "Çagyryş hatlary we LOI",
+        "p3": "Her tapgyrda maslahat"
+      },
+      "tickets": {
+        "subtitle": "Turkmenistan Airlines biletleri",
+        "desc": "Iň gowy nyrhlar bilen halkara we içeri reýsleri baglaşýarys, doly goldaw bilen.",
+        "p1": "Aşgabada(/dan) halkara reýsler",
+        "p2": "Türkmenistan boýunça içeri uçarylar",
+        "p3": "24/7 baglaşmagyň dolandyrylyşy"
+      },
+      "vipEscort": {
+        "subtitle": "MICE we delegasiýa logistikasy",
+        "desc": "Delegasiýalaryň, korporatiw toparlaryň we iň ýokary derejedäki çärelerniň giňişleýin hamkyatlygy.",
+        "p1": "Delegasiýa koordinasiýasy we protokol",
+        "p2": "Konferensiýalar, forumlar we MICE wakalar",
+        "p3": "Howpsuzlyk we gizlinlik"
+      },
+      "guides": {
+        "subtitle": "Köpdilli hünär gidler",
+        "desc": "Ýüpek ýolunyň taryhyny, medeniýetini we gizlin gyzy bilýän hünärli gidler.",
+        "p1": "Russky, iňlis, türkmen we başgalar",
+        "p2": "Sebitň(iş) taryhyny çuňň bilmek",
+        "p3": "Topara hususy çemeleşme"
+      }
+    }
+  },
+
+  "galleryPage": {
+    "heroKicker": "Galerýa",
+    "heroTitle": "Kadrda Türkmenistan",
+    "heroSubtitle": "Aşgabadyň me'marçylygy, gadymy harabalar we päk tebigat — siz bilen galýan pursatlar.",
+    "filters": {
+      "all": "Hemmesi",
+      "nature": "Tebigat",
+      "history": "Taryh",
+      "city": "Şäher",
+      "leisure": "Dynç alyş"
+    },
+    "items": {
+      "g1": { "title": "Aşgabadyň ak mermeri", "cat": "city" },
+      "g2": { "title": "Gijä derweze krateri", "cat": "nature" },
+      "g3": { "title": "Beýik Merv", "cat": "history" },
+      "g4": { "title": "Ýangykala jarlary", "cat": "nature" },
+      "g5": { "title": "Sanjaryň maýeoleýi", "cat": "history" },
+      "g6": { "title": "Awazaň(rows) guşlugy", "cat": "leisure" },
+      "g7": { "title": "Garşylyksyzlyk meýdany", "cat": "city" },
+      "g8": { "title": "Köneürgenç", "cat": "history" },
+      "g9": { "title": "Gün batanda Köpetdag", "cat": "nature" },
+      "g10": { "title": "Hazar kenary", "cat": "leisure" },
+      "g11": { "title": "Nusaý — parfiýa paýtagty", "cat": "history" },
+      "g12": { "title": "Gijä Aşgabat", "cat": "city" }
+    }
+  },
+
+  "newsPage": {
+    "heroKicker": "Täzelikler we blog",
+    "heroTitle": "Meridianň(rows) hekaýatlary we wakalar",
+    "heroSubtitle": "Syýahatçylara maslahatlar, uguklama täzelikleri we Türkmenistanda syýahatçylyk habarlary.",
+    "readMore": "Giňişleýin oka",
+    "items": {
+      "n1": { "title": "Täze uguklama: Ýangykala jarlary we duzly köl", "excerpt": "Ýurdyň iň gözel jarlaryna ýyldyzlar astynda galmak bilen 3-günlük sapany başlaýarys.", "date": "15.06.2026", "category": "Ugramlar" },
+      "n2": { "title": "Derweze möwsümi: krater üçin iň gowy wagt", "excerpt": "Näme üçin «Garagumyň ýagtylygynyň» ýaz gijeleri ýatdan çykmaz tässirleri galdirýär.", "date": "02.06.2026", "category": "Maslahatlar" },
+      "n3": { "title": "Iň ýokary derejede VIP delegasiýa hyzmaty", "excerpt": "40-adamlyk halkara delegasiýasy üçin logistikany nähili gurduk.", "date": "20.05.2026", "category": "MICE" },
+      "n4": { "title": "Türkmenistanyň ÝUNESKE ýadygärlikleri: myhmyň gidi", "excerpt": "Merv, Nusaý we Köneürgenç — baryndan öň bilmeli zatlaryň.", "date": "05.05.2026", "category": "Gid" },
+      "n5": { "title": "Awaza-2026: Hazarda dynç alyş", "excerpt": "Milli syýahatçylyk zónasynyň altyn plajlarynda täzelenen dynç alyş paketleri.", "date": "18.04.2026", "category": "Dynç alyş" },
+      "n6": { "title": "Türkmenistana wiza: ädimme-ädim gollanma", "excerpt": "Meridanyň(rows) goldawy bilen LOI we wiza prosesini derňýäris.", "date": "30.03.2026", "category": "Maslahatlar" }
+    }
+  },
+
+  "contactsPage": {
+    "heroKicker": "Habarlaşmak",
+    "heroTitle": "Meridian bilen habarlaşyň",
+    "heroSubtitle": "Biz günläp habarlaşyp durýarys. amatly usuly saýlaň — 24 sagadyň dowamynda jogap bereris.",
+    "formTitle": "Bize ýazyň",
+    "formSubtitle": "Formany dolduruň — biz size ýüz tutarys",
+    "nameField": "Adyňyz",
+    "namePh": "Adyňyz nähili",
+    "emailField": "Email",
+    "emailPh": "you@example.com",
+    "messageField": "Habar",
+    "messagePh": "Nädip kömek edip bileris?",
+    "send": "Iber",
+    "sent": "Habar iberildi!",
+    "mapTitle": "Bizi nähili tapmaly",
+    "mapNote": "5-nji gat, 5-nji ofis — Türkmenistanyň Senagatçylar we Telekeçiler birleşiginiň binasy",
+    "messengersTitle": "Messengerler",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "imo": "IMO",
+    "responseTime": "24 sagadyň dowamynda jogap",
+    "hoursLabel": "Iş wagtlary",
+    "hours": "Duş–Şenbe: 9:00–19:00"
+  },
+
+  "toursPage": {
+    "heroKicker": "Ýüpek ýol ugramlary",
+    "heroTitle": "Türkmenistan sapalary",
+    "heroSubtitle": "Gadymy şäherlerden Garagumyň ýanyp duran çöllüne çenli — Meridianyň awtor ugramlary.",
+    "mapTitle": "Interaktiw uguklama kartasy",
+    "mapHint": "Uguklamanyň üstüne süýräň — çyzyk kartada ýyrylar",
+    "fromAshgabat": "Aşgabatdan",
+    "duration": "Dowamlylyk",
+    "distance": "Aralyk",
+    "highlightsLabel": "Görersiňiz",
+    "routes": {
+      "nisa": { "duration": "1 gün", "distance": "20 km", "highlights": "Parfiýa galasynyň harabalary, muzeý, minara ybadathanalary." },
+      "merv": { "duration": "2 gün", "distance": "380 km", "highlights": "Sanjaryň maýeoleýi, Erk-Gala, Ýaýur-Gala — oazisiň kalby." },
+      "konyeUrgench": { "duration": "3 gün", "distance": "480 km", "highlights": "Gutlug-Timur minarasy, Tüýräbäk-hanym we Yl-Arslan maýeoleýleri." },
+      "darvaza": { "duration": "2 gün", "distance": "270 km", "highlights": "Gün batanda ýanyp duran krater, öý dükaninda galmak, çölda gün doguşy." },
+      "yangikala": { "duration": "3 gün", "distance": "420 km", "highlights": "Reňkli jarlar, duzly köl, ýyldyzlar astynda kempping." },
+      "avaza": { "duration": "3 gün", "distance": "560 km", "highlights": "Hazaryň altyn plajlary, talassoterapiýa, deňiz syýahatlary." }
+    }
+  },
+
+  "contact": {
+    "addressLabel": "Salgysy",
+    "address": "Türkmenistan, Aşgabat şäheri, Türkmenbaşy şaýoly, 81 (Türkmenistanyň Senagatçylar we Telekeçiler birleşiginiň binasy), 5-nji gat, 5-nji ofis",
+    "phoneLabel": "Telefonlar",
+    "mobileLabel": "Mobil",
+    "emailLabel": "Elektron poçta",
+    "socialLabel": "Sosial torlar"
+  },
+
+  "footer": {
+    "aboutText": "Türkmenistanda geljekli syýahatçylygyň, VIP hyzmatynyň we korporatiw MICE çäreleriniň öňdebaryjysy.",
+    "quickLinksTitle": "Nawigasiýa",
+    "servicesTitle": "Hyzmatlar",
+    "contactsTitle": "Habarlaşmak",
+    "copyright": "© {{year}} Meridian Tourism DMC. Ähli hukuklar goralýar.",
+    "privacyPolicy": "Gizlinlik syýasaty",
+    "terms": "Ulanmak şertleri"
+  },
+
+  "lang": {
+    "ru": "Russky",
+    "tk": "Türkmençe",
+    "en": "English"
+  },
+
+  "form": {
+    "title": "Syýahat üpjünçiligi",
+    "subtitle": "3 ädimi dolduryň — 24 sagadyň dowamynda ýüz tutarys",
+    "step1": "Ugruklama",
+    "step2": "Seneler we günler",
+    "step3": "Habarlaşmak",
+    "next": "Indiki",
+    "back": "Yza",
+    "submit": "Üpjünçilik iber",
+    "sending": "Iberýäris…",
+    "summary": "Saýlawyňyz",
+    "fields": {
+      "destination": "Ugruklama",
+      "destinationPh": "Ugruklama saýlaň",
+      "anyDest": "Haýsysy bolsa",
+      "tourType": "Sapa görnüşi",
+      "tourTypePrivate": "Hususy",
+      "tourTypeGroup": "Toparlyk",
+      "tourTypeBusiness": "Işewür",
+      "tourTypeVip": "VIP",
+      "date": "Islenýän sene",
+      "datePh": "gg.aa.ýýýý",
+      "days": "Gün",
+      "daysPh": "1",
+      "guests": "Myhman",
+      "guestsPh": "1",
+      "name": "Adyňyz",
+      "namePh": "Adyňyz nähili",
+      "email": "Elektron poçta",
+      "emailPh": "you@example.com",
+      "phone": "Telefon",
+      "phonePh": "+993 (12) 22-71-29",
+      "message": "Islegler (hökmän däl)",
+      "messagePh": "Goşmaça islegler…"
+    },
+    "validation": {
+      "required": "Hökmän meýdança",
+      "email": "Nädogry email formaty",
+      "phone": "Dogry belgi giriziň",
+      "name": "Iň azyndan 2 nyşan",
+      "date": "Seneni görkeziň"
+    },
+    "success": {
+      "title": "Sag boluň!",
+      "text": "Üpjünçiligiňiz kabul edildi. Müdirimiz gysga wagtyň dowamynda siz bilen habarlaşar.",
+      "close": "Ýagşy"
+    }
+  },
+
+  "phoneNumbers": {
+    "tel1": "+993 (12) 22-71-29",
+    "tel2": "+993 (12) 22-73-39",
+    "tel3": "+993 (12) 22-73-92",
+    "mob1": "+993 (65) 86-06-66",
+    "mob2": "+993 (64) 21-14-11",
+    "mob3": "+993 (65) 80-14-00"
+  }
+}

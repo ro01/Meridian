@@ -1,0 +1,419 @@
+{
+  "meta": {
+    "langName": "English",
+    "langCode": "en",
+    "htmlLang": "en",
+    "dir": "ltr",
+    "pageTitle": "Meridian Tourism DMC — Inbound Tourism in Turkmenistan"
+  },
+
+  "brand": {
+    "name": "Meridian Tourism DMC",
+    "legalName": "Travel company «Meridian» / «Ak ýol»",
+    "tagline": "You can always rely on us"
+  },
+
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "tours": "Tours",
+    "transfer": "Transfer",
+    "visa": "Visa",
+    "tickets": "Tickets",
+    "vipEscort": "VIP Escort",
+    "guides": "Guide Services",
+    "news": "News",
+    "gallery": "Gallery",
+    "contacts": "Contacts",
+    "cta": "Book Now",
+    "menuAria": "Open menu",
+    "langSwitchAria": "Switch language"
+  },
+
+  "hero": {
+    "kicker": "Leading inbound tourism of Turkmenistan",
+    "title": "Discover the heart of the Silk Road",
+    "subtitle": "World-class VIP service, flawless logistics and exclusive journeys across the most ancient lands of Central Asia.",
+    "ctaPrimary": "Find a tour",
+    "ctaSecondary": "Explore destinations",
+    "scrollDown": "Scroll down",
+    "stats": {
+      "years": "years on the market",
+      "clients": "happy guests",
+      "routes": "unique routes",
+      "languages": "service languages"
+    }
+  },
+
+  "buttons": {
+    "explore": "Learn more",
+    "book": "Book now",
+    "send": "Send request",
+    "next": "Next",
+    "back": "Back",
+    "contact": "Contact us",
+    "viewAll": "View all",
+    "download": "Download",
+    "close": "Close",
+    "submit": "Submit"
+  },
+
+  "destinations": {
+    "title": "Popular Destinations",
+    "subtitle": "Millennia of history, living landscapes and the legends of the Karakum",
+    "viewTour": "Open tour",
+    "items": {
+      "nisa": {
+        "name": "Ancient Nisa",
+        "region": "Ashgabat",
+        "tag": "UNESCO",
+        "desc": "Residence of the Parthian kings — the cradle of a great empire at the foot of the Kopetdag."
+      },
+      "merv": {
+        "name": "Ancient Merv",
+        "region": "Mary Province",
+        "tag": "UNESCO",
+        "desc": "One of the greatest oases of the Silk Road, thriving for millennia."
+      },
+      "konyeUrgench": {
+        "name": "Kunya-Urgench",
+        "region": "Dashoguz Province",
+        "tag": "UNESCO",
+        "desc": "Capital of Khorezm with majestic mausoleums and the ancient Kutlug-Timur minaret."
+      },
+      "darvaza": {
+        "name": "Darvaza Crater",
+        "region": "Karakum Desert",
+        "tag": "Nature",
+        "desc": "The “Glory of the Karakum” — a burning gas crater glowing in the heart of the desert."
+      },
+      "yangikala": {
+        "name": "Yangikala Canyons",
+        "region": "Balkan Province",
+        "tag": "Nature",
+        "desc": "Dazzling white and red cliffs — among the most picturesque landscapes in the country."
+      },
+      "avaza": {
+        "name": "Avaza",
+        "region": "Caspian Coast",
+        "tag": "Leisure",
+        "desc": "A modern tourist zone on the Caspian shore with golden beaches."
+      }
+    }
+  },
+
+  "servicesOverview": {
+    "title": "Premium Services",
+    "subtitle": "A full spectrum of solutions for the most discerning guests",
+    "learnMore": "Learn more",
+    "items": {
+      "tours": {
+        "title": "Signature Tours",
+        "desc": "Routes to Ancient Merv, Nisa, Kunya-Urgench, the Darvaza crater and the Yangikala canyons."
+      },
+      "transfer": {
+        "title": "Premium Transfer",
+        "desc": "Business-class transport, VIP airport meet-and-greet in Ashgabat and Turkmenbashi."
+      },
+      "visa": {
+        "title": "Visa Support",
+        "desc": "Professional handling of visas, letters of invitation and the full document package."
+      },
+      "tickets": {
+        "title": "Flight Tickets",
+        "desc": "Booking for international and domestic Turkmenistan Airlines flights."
+      },
+      "vipEscort": {
+        "title": "VIP Escort",
+        "desc": "Comprehensive delegation escort and top-tier MICE logistics."
+      },
+      "guides": {
+        "title": "Guide Services",
+        "desc": "Professional multilingual guides versed in the history of the Silk Road."
+      }
+    }
+  },
+
+  "whyUs": {
+    "title": "Why Meridian",
+    "subtitle": "The principles our reputation stands on",
+    "items": {
+      "safety": {
+        "title": "Safety",
+        "desc": "Full control over logistics and escort at every stage of your journey."
+      },
+      "vip": {
+        "title": "World-class VIP Service",
+        "desc": "Attention to every detail — from airport meet-and-greet to a signature itinerary."
+      },
+      "reliability": {
+        "title": "Reliability",
+        "desc": "You can always rely on us. Year after year of flawless work on the market."
+      },
+      "expertise": {
+        "title": "Silk Road Expertise",
+        "desc": "Deep knowledge of the history, culture and hidden gems of Turkmenistan."
+      }
+    }
+  },
+
+  "testimonials": {
+    "title": "Guest Reviews",
+    "subtitle": "The trust we have earned",
+    "items": {
+      "t1": {
+        "quote": "Flawless organization from the very first minute. VIP meet-and-greet, luxurious transport and a guide who brought the Silk Road to life.",
+        "author": "Henri Dubois",
+        "role": "Business delegation, France"
+      },
+      "t2": {
+        "quote": "The Darvaza crater at sunset is unforgettable. Meridian planned every detail of our Karakum journey.",
+        "author": "Maria Schmidt",
+        "role": "Private tour, Germany"
+      },
+      "t3": {
+        "quote": "Professionalism of the highest class. The MICE logistics for our delegation were executed perfectly.",
+        "author": "James Carter",
+        "role": "Corporate client, United Kingdom"
+      }
+    }
+  },
+
+  "ctaBand": {
+    "title": "Shall we plan your journey?",
+    "subtitle": "Tell us your wishes — we will prepare a tailored proposal within 24 hours.",
+    "button": "Send a request"
+  },
+
+  "aboutPage": {
+    "heroKicker": "About Meridian",
+    "heroTitle": "Your trusted guide to Turkmenistan",
+    "heroSubtitle": "We craft world-class experiences, blending the millennia-old history of the Silk Road with flawless service.",
+    "missionTitle": "Our Mission",
+    "missionText": "To reveal the authentic Turkmenistan to our guests — safely, comfortably and with the dignity of a great culture. We take on all the complexity of logistics so you can enjoy every moment of the journey.",
+    "philosophyTitle": "Brand Philosophy",
+    "philosophyText": "Meridian is the meeting point of East and West, ancient and modern. As a meridian connects the poles, we connect people to the heart of Turkmenistan.",
+    "quote": "“You can always rely on us” is not a slogan but a promise we keep in every detail."
+  },
+
+  "servicesPage": {
+    "heroKicker": "Full-service offer",
+    "heroTitle": "Premium Tourism Solutions",
+    "heroSubtitle": "From visa to VIP escort — everything under one roof, at the highest level.",
+    "detailed": {
+      "tours": {
+        "subtitle": "Signature Silk Road journeys",
+        "desc": "Bespoke tours to the greatest treasures of Turkmenistan with expert guides and thoughtful logistics.",
+        "p1": "UNESCO sites: Merv, Nisa, Kunya-Urgench",
+        "p2": "Natural wonders: Darvaza and Yangikala canyons",
+        "p3": "Custom programs and exclusive access"
+      },
+      "transfer": {
+        "subtitle": "Business-class transport",
+        "desc": "Premium vehicles, professional drivers and VIP airport meet-and-greet in Ashgabat and Turkmenbashi.",
+        "p1": "Premium sedans and minivans",
+        "p2": "Meet-and-greet at the aircraft steps",
+        "p3": "Chauffeured and self-drive car rental"
+      },
+      "visa": {
+        "subtitle": "Turnkey visa support",
+        "desc": "We handle visas, letters of invitation and all formalities — quickly and error-free.",
+        "p1": "Tourist and business visas",
+        "p2": "Letters of invitation and LOI",
+        "p3": "Guidance at every step"
+      },
+      "tickets": {
+        "subtitle": "Turkmenistan Airlines tickets",
+        "desc": "We book international and domestic flights at the best fares with full support.",
+        "p1": "International flights to/from Ashgabat",
+        "p2": "Domestic flights across Turkmenistan",
+        "p3": "24/7 booking management"
+      },
+      "vipEscort": {
+        "subtitle": "MICE & delegation logistics",
+        "desc": "Comprehensive escort for delegations, corporate groups and top-tier events.",
+        "p1": "Delegation coordination and protocol",
+        "p2": "Conferences, forums and MICE events",
+        "p3": "Security and confidentiality"
+      },
+      "guides": {
+        "subtitle": "Multilingual expert guides",
+        "desc": "Professional guides versed in the history, culture and hidden gems of the Silk Road.",
+        "p1": "Russian, English, Turkmen and more",
+        "p2": "Deep knowledge of the region's history",
+        "p3": "Personal approach to each group"
+      }
+    }
+  },
+
+  "galleryPage": {
+    "heroKicker": "Gallery",
+    "heroTitle": "Turkmenistan in Frame",
+    "heroSubtitle": "The architecture of Ashgabat, ancient ruins and pristine nature — moments that stay with you.",
+    "filters": {
+      "all": "All",
+      "nature": "Nature",
+      "history": "History",
+      "city": "City",
+      "leisure": "Leisure"
+    },
+    "items": {
+      "g1": { "title": "Ashgabat's white marble", "cat": "city" },
+      "g2": { "title": "Darvaza crater by night", "cat": "nature" },
+      "g3": { "title": "Ancient Merv", "cat": "history" },
+      "g4": { "title": "Yangikala canyons", "cat": "nature" },
+      "g5": { "title": "Mausoleum of Sanjar", "cat": "history" },
+      "g6": { "title": "Avaza promenade", "cat": "leisure" },
+      "g7": { "title": "Independence Square", "cat": "city" },
+      "g8": { "title": "Kunya-Urgench", "cat": "history" },
+      "g9": { "title": "Kopetdag at sunset", "cat": "nature" },
+      "g10": { "title": "Caspian coast", "cat": "leisure" },
+      "g11": { "title": "Nisa — Parthian capital", "cat": "history" },
+      "g12": { "title": "Ashgabat by night", "cat": "city" }
+    }
+  },
+
+  "newsPage": {
+    "heroKicker": "News & Blog",
+    "heroTitle": "Meridian Stories & Events",
+    "heroSubtitle": "Travel tips, route updates and tourism news from Turkmenistan.",
+    "readMore": "Read more",
+    "items": {
+      "n1": { "title": "New route: Yangikala canyons and the salt lake", "excerpt": "We launch a 3-day tour to the country's most picturesque canyons with an overnight under the stars.", "date": "15.06.2026", "category": "Routes" },
+      "n2": { "title": "Darvaza season: the best time for the crater", "excerpt": "Why summer nights at the “Glory of the Karakum” leave unforgettable impressions.", "date": "02.06.2026", "category": "Tips" },
+      "n3": { "title": "Top-tier VIP delegation service", "excerpt": "How we organized logistics for a 40-person international delegation.", "date": "20.05.2026", "category": "MICE" },
+      "n4": { "title": "UNESCO sites of Turkmenistan: a guest's guide", "excerpt": "Merv, Nisa and Kunya-Urgench — what to know before visiting.", "date": "05.05.2026", "category": "Guide" },
+      "n5": { "title": "Avaza 2026: Caspian getaway", "excerpt": "Updated leisure packages on the golden beaches of the national tourist zone.", "date": "18.04.2026", "category": "Leisure" },
+      "n6": { "title": "Visa to Turkmenistan: step-by-step", "excerpt": "We break down the LOI and visa process with Meridian's support.", "date": "30.03.2026", "category": "Tips" }
+    }
+  },
+
+  "contactsPage": {
+    "heroKicker": "Contacts",
+    "heroTitle": "Get in touch with Meridian",
+    "heroSubtitle": "We're available daily. Choose a convenient way — we'll reply within 24 hours.",
+    "formTitle": "Write to us",
+    "formSubtitle": "Fill in the form and we'll call you back",
+    "nameField": "Your name",
+    "namePh": "How should we address you",
+    "emailField": "Email",
+    "emailPh": "you@example.com",
+    "messageField": "Message",
+    "messagePh": "How can we help?",
+    "send": "Send",
+    "sent": "Message sent!",
+    "mapTitle": "How to find us",
+    "mapNote": "5th floor, office No. 5 — Union of Industrialists and Entrepreneurs of Turkmenistan building",
+    "messengersTitle": "Messengers",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "imo": "IMO",
+    "responseTime": "Reply within 24 hours",
+    "hoursLabel": "Working hours",
+    "hours": "Mon–Sat: 9:00–19:00"
+  },
+
+  "toursPage": {
+    "heroKicker": "Silk Road Routes",
+    "heroTitle": "Tours of Turkmenistan",
+    "heroSubtitle": "From ancient cities to the burning sands of the Karakum — Meridian's signature routes.",
+    "mapTitle": "Interactive Route Map",
+    "mapHint": "Hover a route to trace it on the map",
+    "fromAshgabat": "from Ashgabat",
+    "duration": "Duration",
+    "distance": "Distance",
+    "highlightsLabel": "What you'll see",
+    "routes": {
+      "nisa": { "duration": "1 day", "distance": "20 km", "highlights": "Parthian fortress ruins, museum, tower temples." },
+      "merv": { "duration": "2 days", "distance": "380 km", "highlights": "Mausoleum of Sanjar, Erk-Kala, Gyaur-Kala — heart of the oasis." },
+      "konyeUrgench": { "duration": "3 days", "distance": "480 km", "highlights": "Kutlug-Timur minaret, mausoleums of Tyurabek-Khanym and Il-Arslan." },
+      "darvaza": { "duration": "2 days", "distance": "270 km", "highlights": "Burning crater at sunset, yurt stay, desert sunrise." },
+      "yangikala": { "duration": "3 days", "distance": "420 km", "highlights": "Multicolored canyons, salt lake, camping under the stars." },
+      "avaza": { "duration": "3 days", "distance": "560 km", "highlights": "Caspian golden beaches, thalassotherapy, sea trips." }
+    }
+  },
+
+  "contact": {
+    "addressLabel": "Address",
+    "address": "Turkmenistan, Ashgabat, Turkmenbashi Avenue, 81 (Union of Industrialists and Entrepreneurs of Turkmenistan Building), 5th floor, office No. 5",
+    "phoneLabel": "Telephone",
+    "mobileLabel": "Mobile",
+    "emailLabel": "Email",
+    "socialLabel": "Social Networks"
+  },
+
+  "footer": {
+    "aboutText": "The market leader in inbound tourism, VIP service and corporate MICE events in Turkmenistan.",
+    "quickLinksTitle": "Navigation",
+    "servicesTitle": "Services",
+    "contactsTitle": "Contacts",
+    "copyright": "© {{year}} Meridian Tourism DMC. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "terms": "Terms of Use"
+  },
+
+  "lang": {
+    "ru": "Russian",
+    "tk": "Turkmen",
+    "en": "English"
+  },
+
+  "form": {
+    "title": "Trip Request",
+    "subtitle": "Complete 3 steps — we will call you back within 24 hours",
+    "step1": "Destination",
+    "step2": "Dates & Days",
+    "step3": "Contacts",
+    "next": "Next",
+    "back": "Back",
+    "submit": "Send request",
+    "sending": "Sending…",
+    "summary": "Your selection",
+    "fields": {
+      "destination": "Destination",
+      "destinationPh": "Choose a destination",
+      "anyDest": "Any",
+      "tourType": "Tour type",
+      "tourTypePrivate": "Private",
+      "tourTypeGroup": "Group",
+      "tourTypeBusiness": "Business",
+      "tourTypeVip": "VIP",
+      "date": "Preferred date",
+      "datePh": "dd.mm.yyyy",
+      "days": "Days",
+      "daysPh": "1",
+      "guests": "Guests",
+      "guestsPh": "1",
+      "name": "Your name",
+      "namePh": "How should we address you",
+      "email": "Email",
+      "emailPh": "you@example.com",
+      "phone": "Phone",
+      "phonePh": "+993 (12) 22-71-29",
+      "message": "Notes (optional)",
+      "messagePh": "Additional wishes…"
+    },
+    "validation": {
+      "required": "This field is required",
+      "email": "Invalid email format",
+      "phone": "Enter a valid number",
+      "name": "At least 2 characters",
+      "date": "Please specify a date"
+    },
+    "success": {
+      "title": "Thank you!",
+      "text": "Your request has been received. Our manager will contact you shortly.",
+      "close": "Great"
+    }
+  },
+
+  "phoneNumbers": {
+    "tel1": "+993 (12) 22-71-29",
+    "tel2": "+993 (12) 22-73-39",
+    "tel3": "+993 (12) 22-73-92",
+    "mob1": "+993 (65) 86-06-66",
+    "mob2": "+993 (64) 21-14-11",
+    "mob3": "+993 (65) 80-14-00"
+  }
+}
