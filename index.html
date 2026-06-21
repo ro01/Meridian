@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meridian Tourism DMC</title>
+  <meta name="description" content="Meridian Tourism DMC — лидер въездного туризма Туркменистана. VIP-сервис, авторские туры по Шёлковому пути." />
+  <meta name="theme-color" content="#06121d" />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+
+  <!-- ============================== ШАПКА ============================== -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+
+      <a href="#top" class="brand-mark" data-magnetic="0.2">
+        Meridian<span>.</span>
+        <small class="brand-sub" data-i18n="brand.tagline">Вы всегда можете на нас положиться</small>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#top" data-i18n="nav.home">Главная</a></li>
+          <li><a href="pages/about.html" data-i18n="nav.about">О нас</a></li>
+          <li><a href="pages/tours.html" data-i18n="nav.tours">Туры</a></li>
+          <li><a href="pages/services.html" data-i18n="nav.services">Услуги</a></li>
+          <li><a href="pages/gallery.html" data-i18n="nav.gallery">Галерея</a></li>
+          <li><a href="pages/news.html" data-i18n="nav.news">Новости</a></li>
+          <li><a href="pages/contacts.html" data-i18n="nav.contacts">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch" role="group" data-i18n-aria="nav.langSwitchAria" aria-label="Сменить язык">
+          <button type="button" data-lang-switch data-lang="ru">RU</button>
+          <button type="button" data-lang-switch data-lang="tk">TK</button>
+          <button type="button" data-lang-switch data-lang="en">EN</button>
+        </div>
+        <a href="#contacts" class="btn btn--gold btn--sm btn--glow" data-magnetic="0.4" data-open-booking data-i18n="nav.cta">Забронировать</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" data-i18n-aria="nav.menuAria" aria-label="Открыть меню">
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Мобильное меню -->
+    <nav class="mobile-menu" aria-label="Mobile">
+      <a href="#top" data-i18n="nav.home">Главная</a>
+      <a href="pages/about.html" data-i18n="nav.about">О нас</a>
+      <a href="pages/tours.html" data-i18n="nav.tours">Туры</a>
+      <a href="pages/services.html" data-i18n="nav.services">Услуги</a>
+      <a href="pages/gallery.html" data-i18n="nav.gallery">Галерея</a>
+      <a href="pages/news.html" data-i18n="nav.news">Новости</a>
+      <a href="pages/contacts.html" data-i18n="nav.contacts">Контакты</a>
+      <div class="mobile-lang-switch">
+        <button type="button" data-lang-switch data-lang="ru">RU</button>
+        <button type="button" data-lang-switch data-lang="tk">TK</button>
+        <button type="button" data-lang-switch data-lang="en">EN</button>
+      </div>
+      <div class="mobile-menu__footer">
+        <a href="tel:+99365860666">+993 (65) 86-06-66</a>
+        <a href="mailto:info@meridian.com.tm">info@meridian.com.tm</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ============================== HERO ============================== -->
+    <section class="hero">
+      <!-- Видео-фон: положите файл в assets/video/hero.mp4 (запас — градиент) -->
+      <!-- <video class="hero__video" autoplay muted loop playsinline poster="assets/img/hero/poster.jpg">
+        <source src="assets/video/hero.mp4" type="video/mp4" />
+      </video> -->
+      <div class="hero__gradient"></div>
+      <div class="hero__pattern" style="background-image:url('assets/img/patterns/gul-tile.svg');background-size:160px;"></div>
+      <div class="hero__overlay"></div>
+
+      <div class="container hero__content">
+        <span class="hero__kicker" data-i18n="hero.kicker">Лидер въездного туризма Туркменистана</span>
+        <h1 class="hero__title" data-i18n="hero.title">Откройте сердце Шёлкового пути</h1>
+        <p class="hero__subtitle" data-i18n="hero.subtitle">VIP-сервис мирового уровня.</p>
+        <div class="hero__actions">
+          <a href="#destinations" class="btn btn--gold btn--glow" data-magnetic="0.4" data-open-booking data-i18n="hero.ctaPrimary">Подобрать тур</a>
+          <a href="#services" class="btn btn--ghost" data-magnetic="0.3" data-i18n="hero.ctaSecondary">Смотреть направления</a>
+        </div>
+
+        <!-- Статистика -->
+        <div class="hero__stats" data-reveal="scale">
+          <div>
+            <div class="hero__stat-value">15+</div>
+            <div class="hero__stat-label" data-i18n="hero.stats.years">лет на рынке</div>
+          </div>
+          <div>
+            <div class="hero__stat-value">5000+</div>
+            <div class="hero__stat-label" data-i18n="hero.stats.clients">довольных гостей</div>
+          </div>
+          <div>
+            <div class="hero__stat-value">40+</div>
+            <div class="hero__stat-label" data-i18n="hero.stats.routes">уникальных маршрутов</div>
+          </div>
+          <div>
+            <div class="hero__stat-value">8</div>
+            <div class="hero__stat-label" data-i18n="hero.stats.languages">языков сопровождения</div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#destinations" class="hero__scroll">
+        <span class="hero__scroll-mouse"></span>
+        <span data-i18n="hero.scrollDown">Листайте вниз</span>
+      </a>
+    </section>
+
+    <!-- ====================== ПОПУЛЯРНЫЕ НАПРАВЛЕНИЯ =================== -->
+    <section class="section section--alt" id="destinations">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="section-head__kicker" data-i18n="destinations.title">Популярные направления</span>
+          <h2 class="section-head__title" data-i18n="destinations.title">Популярные направления</h2>
+          <p class="section-head__subtitle" data-i18n="destinations.subtitle">Тысячелетняя история и живые пейзажи</p>
+        </div>
+
+        <div class="dest-grid">
+          <!-- Ниса -->
+          <article class="dest-card" data-dest="nisa" data-reveal data-reveal-delay="0">
+            <div class="dest-card__bg"></div>
+            <span class="dest-card__tag" data-i18n="destinations.items.nisa.tag">ЮНЕСКО</span>
+            <h3 class="dest-card__name" data-i18n="destinations.items.nisa.name">Древняя Ниса</h3>
+            <div class="dest-card__region" data-i18n="destinations.items.nisa.region">Ашхабад</div>
+            <p class="dest-card__desc" data-i18n="destinations.items.nisa.desc">Резиденция парфянских царей.</p>
+            <a href="pages/tours.html" class="btn btn--text dest-card__link" data-i18n="destinations.viewTour">Открыть тур</a>
+          </article>
+
+          <!-- Мерв -->
+          <article class="dest-card" data-dest="merv" data-reveal data-reveal-delay="100">
+            <div class="dest-card__bg"></div>
+            <span class="dest-card__tag" data-i18n="destinations.items.merv.tag">ЮНЕСКО</span>
+            <h3 class="dest-card__name" data-i18n="destinations.items.merv.name">Древний Мерв</h3>
+            <div class="dest-card__region" data-i18n="destinations.items.merv.region">Марыйский велаят</div>
+            <p class="dest-card__desc" data-i18n="destinations.items.merv.desc">Оазис Шёлкового пути.</p>
+            <a href="pages/tours.html" class="btn btn--text dest-card__link" data-i18n="destinations.viewTour">Открыть тур</a>
+          </article>
+
+          <!-- Куня-Ургенч -->
+          <article class="dest-card" data-dest="konyeUrgench" data-reveal data-reveal-delay="200">
+            <div class="dest-card__bg"></div>
+            <span class="dest-card__tag" data-i18n="destinations.items.konyeUrgench.tag">ЮНЕСКО</span>
+            <h3 class="dest-card__name" data-i18n="destinations.items.konyeUrgench.name">Куня-Ургенч</h3>
+            <div class="dest-card__region" data-i18n="destinations.items.konyeUrgench.region">Дашогузский велаят</div>
+            <p class="dest-card__desc" data-i18n="destinations.items.konyeUrgench.desc">Столица Хорезма.</p>
+            <a href="pages/tours.html" class="btn btn--text dest-card__link" data-i18n="destinations.viewTour">Открыть тур</a>
+          </article>
+
+          <!-- Дарваза -->
+          <article class="dest-card" data-dest="darvaza" data-reveal data-reveal-delay="0">
+            <div class="dest-card__bg"></div>
+            <span class="dest-card__tag" data-i18n="destinations.items.darvaza.tag">Природа</span>
+            <h3 class="dest-card__name" data-i18n="destinations.items.darvaza.name">Кратер Дарваза</h3>
+            <div class="dest-card__region" data-i18n="destinations.items.darvaza.region">Пустыня Каракумы</div>
+            <p class="dest-card__desc" data-i18n="destinations.items.darvaza.desc">Сияние Каракумов.</p>
+            <a href="pages/tours.html" class="btn btn--text dest-card__link" data-i18n="destinations.viewTour">Открыть тур</a>
+          </article>
+
+          <!-- Янгикала -->
+          <article class="dest-card" data-dest="yangikala" data-reveal data-reveal-delay="100">
+            <div class="dest-card__bg"></div>
+            <span class="dest-card__tag" data-i18n="destinations.items.yangikala.tag">Природа</span>
+            <h3 class="dest-card__name" data-i18n="destinations.items.yangikala.name">Каньоны Янгикала</h3>
+            <div class="dest-card__region" data-i18n="destinations.items.yangikala.region">Балканский велаят</div>
+            <p class="dest-card__desc" data-i18n="destinations.items.yangikala.desc">Белые и красные скалы.</p>
+            <a href="pages/tours.html" class="btn btn--text dest-card__link" data-i18n="destinations.viewTour">Открыть тур</a>
+          </article>
+
+          <!-- Аваза -->
+          <article class="dest-card" data-dest="avaza" data-reveal data-reveal-delay="200">
+            <div class="dest-card__bg"></div>
+            <span class="dest-card__tag" data-i18n="destinations.items.avaza.tag">Отдых</span>
+            <h3 class="dest-card__name" data-i18n="destinations.items.avaza.name">Аваза</h3>
+            <div class="dest-card__region" data-i18n="destinations.items.avaza.region">Каспийское побережье</div>
+            <p class="dest-card__desc" data-i18n="destinations.items.avaza.desc">Золотые пляжи Каспия.</p>
+            <a href="pages/tours.html" class="btn btn--text dest-card__link" data-i18n="destinations.viewTour">Открыть тур</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================== УСЛУГИ =============================== -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="section-head__kicker" data-i18n="servicesOverview.title">Премиальные услуги</span>
+          <h2 class="section-head__title" data-i18n="servicesOverview.title">Премиальные услуги</h2>
+          <p class="section-head__subtitle" data-i18n="servicesOverview.subtitle">Полный спектр решений</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Туры -->
+          <article class="service-card" data-reveal data-reveal-delay="0">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 0v20M2 12h20M5 5l14 14M19 5L5 19" /></svg>
+            </div>
+            <h3 class="service-card__title" data-i18n="servicesOverview.items.tours.title">Авторские туры</h3>
+            <p class="service-card__desc" data-i18n="servicesOverview.items.tours.desc">Маршруты к Мерву, Нисе, Дарваза.</p>
+            <a href="pages/services.html" class="btn btn--text" data-i18n="servicesOverview.learnMore">Подробнее</a>
+          </article>
+
+          <!-- Трансфер -->
+          <article class="service-card" data-reveal data-reveal-delay="100">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24"><path d="M3 13l2-5h14l2 5v5h-2a2 2 0 11-4 0H9a2 2 0 11-4 0H3v-5z" /></svg>
+            </div>
+            <h3 class="service-card__title" data-i18n="servicesOverview.items.transfer.title">Премиум-трансфер</h3>
+            <p class="service-card__desc" data-i18n="servicesOverview.items.transfer.desc">VIP-встречи в аэропортах.</p>
+            <a href="pages/services.html" class="btn btn--text" data-i18n="servicesOverview.learnMore">Подробнее</a>
+          </article>
+
+          <!-- Виза -->
+          <article class="service-card" data-reveal data-reveal-delay="200">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9l-6-6zM14 3v6h6M9 13h6M9 17h6" /></svg>
+            </div>
+            <h3 class="service-card__title" data-i18n="servicesOverview.items.visa.title">Визовая поддержка</h3>
+            <p class="service-card__desc" data-i18n="servicesOverview.items.visa.desc">Оформление виз и приглашений.</p>
+            <a href="pages/services.html" class="btn btn--text" data-i18n="servicesOverview.learnMore">Подробнее</a>
+          </article>
+
+          <!-- Билеты -->
+          <article class="service-card" data-reveal data-reveal-delay="0">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 00-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z" /></svg>
+            </div>
+            <h3 class="service-card__title" data-i18n="servicesOverview.items.tickets.title">Авиабилеты</h3>
+            <p class="service-card__desc" data-i18n="servicesOverview.items.tickets.desc">Turkmenistan Airlines.</p>
+            <a href="pages/services.html" class="btn btn--text" data-i18n="servicesOverview.learnMore">Подробнее</a>
+          </article>
+
+          <!-- Сопровождение -->
+          <article class="service-card" data-reveal data-reveal-delay="100">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6l8-4z" /></svg>
+            </div>
+            <h3 class="service-card__title" data-i18n="servicesOverview.items.vipEscort.title">VIP-сопровождение</h3>
+            <p class="service-card__desc" data-i18n="servicesOverview.items.vipEscort.desc">MICE-логистика для делегаций.</p>
+            <a href="pages/services.html" class="btn btn--text" data-i18n="servicesOverview.learnMore">Подробнее</a>
+          </article>
+
+          <!-- Гиды -->
+          <article class="service-card" data-reveal data-reveal-delay="200">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" /><path d="M4 21v-1a6 6 0 0112 0v1M16 11l3 3M22 8l-3-3" /></svg>
+            </div>
+            <h3 class="service-card__title" data-i18n="servicesOverview.items.guides.title">Услуги гида</h3>
+            <p class="service-card__desc" data-i18n="servicesOverview.items.guides.desc">Мультиязычные гиды.</p>
+            <a href="pages/services.html" class="btn btn--text" data-i18n="servicesOverview.learnMore">Подробнее</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= ПОЧЕМУ МЫ ============================== -->
+    <section class="section section--alt" id="why">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="section-head__kicker" data-i18n="whyUs.title">Почему Meridian</span>
+          <h2 class="section-head__title" data-i18n="whyUs.title">Почему Meridian</h2>
+          <p class="section-head__subtitle" data-i18n="whyUs.subtitle">Принципы нашей репутации</p>
+        </div>
+
+        <div class="why-grid">
+          <article class="why-card" data-reveal data-reveal-delay="0">
+            <div class="why-card__num">01</div>
+            <h3 class="why-card__title" data-i18n="whyUs.items.safety.title">Безопасность</h3>
+            <p class="why-card__desc" data-i18n="whyUs.items.safety.desc">Полный контроль логистики.</p>
+          </article>
+          <article class="why-card" data-reveal data-reveal-delay="100">
+            <div class="why-card__num">02</div>
+            <h3 class="why-card__title" data-i18n="whyUs.items.vip.title">VIP-сервис</h3>
+            <p class="why-card__desc" data-i18n="whyUs.items.vip.desc">Внимание к каждой детали.</p>
+          </article>
+          <article class="why-card" data-reveal data-reveal-delay="200">
+            <div class="why-card__num">03</div>
+            <h3 class="why-card__title" data-i18n="whyUs.items.reliability.title">Надёжность</h3>
+            <p class="why-card__desc" data-i18n="whyUs.items.reliability.desc">Год за годом безупречной работы.</p>
+          </article>
+          <article class="why-card" data-reveal data-reveal-delay="300">
+            <div class="why-card__num">04</div>
+            <h3 class="why-card__title" data-i18n="whyUs.items.expertise.title">Экспертиза</h3>
+            <p class="why-card__desc" data-i18n="whyUs.items.expertise.desc">Знание Шёлкового пути.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================== ОТЗЫВЫ =============================== -->
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="section-head__kicker" data-i18n="testimonials.title">Отзывы гостей</span>
+          <h2 class="section-head__title" data-i18n="testimonials.title">Отзывы гостей</h2>
+          <p class="section-head__subtitle" data-i18n="testimonials.subtitle">Доверие, которое мы заслужили</p>
+        </div>
+
+        <div class="testimonial-grid">
+          <article class="testimonial-card" data-reveal data-reveal-delay="0">
+            <p class="testimonial-card__quote" data-i18n="testimonials.items.t1.quote">Безупречная организация.</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">A</div>
+              <div>
+                <div class="testimonial-card__name" data-i18n="testimonials.items.t1.author">Анри Дюбуа</div>
+                <div class="testimonial-card__role" data-i18n="testimonials.items.t1.role">Франция</div>
+              </div>
+            </div>
+          </article>
+          <article class="testimonial-card" data-reveal data-reveal-delay="120">
+            <p class="testimonial-card__quote" data-i18n="testimonials.items.t2.quote">Кратер Дарваза незабываем.</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">M</div>
+              <div>
+                <div class="testimonial-card__name" data-i18n="testimonials.items.t2.author">Мария Шмидт</div>
+                <div class="testimonial-card__role" data-i18n="testimonials.items.t2.role">Германия</div>
+              </div>
+            </div>
+          </article>
+          <article class="testimonial-card" data-reveal data-reveal-delay="240">
+            <p class="testimonial-card__quote" data-i18n="testimonials.items.t3.quote">Профессионализм высочайшего класса.</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">J</div>
+              <div>
+                <div class="testimonial-card__name" data-i18n="testimonials.items.t3.author">Джеймс Картер</div>
+                <div class="testimonial-card__role" data-i18n="testimonials.items.t3.role">Великобритания</div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= CTA-БАННЕР ============================= -->
+    <section class="section--tight" id="gallery">
+      <div class="container" style="padding:0;">
+        <div class="cta-band frame-corner" data-reveal="scale">
+          <div class="cta-band__content">
+            <h2 class="cta-band__title" data-i18n="ctaBand.title">Спланируем ваше путешествие?</h2>
+            <p class="cta-band__subtitle" data-i18n="ctaBand.subtitle">Индивидуальное предложение за 24 часа.</p>
+          </div>
+          <div class="cta-band__action">
+            <a href="#contacts" class="btn btn--gold btn--glow" data-magnetic="0.4" data-open-booking data-i18n="ctaBand.button">Оставить заявку</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================= ФУТЕР ============================== -->
+  <footer class="site-footer" id="contacts">
+    <div class="container">
+
+      <div class="site-footer__top">
+        <div class="site-footer__brand">
+          <div class="brand-mark">Meridian<span>.</span></div>
+          <p class="site-footer__about" data-i18n="footer.aboutText">Лидер рынка въездного туризма.</p>
+          <div class="site-footer__socials">
+            <a href="https://instagram.com/meridian.tourism.tm" aria-label="Instagram" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 3.2a6.6 6.6 0 100 13.2 6.6 6.6 0 000-13.2zm0 10.9a4.3 4.3 0 110-8.6 4.3 4.3 0 010 8.6zm8.4-11.1a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" /></svg>
+            </a>
+            <a href="https://t.me/meridian_tourism_" aria-label="Telegram" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24"><path d="M22 3.4L2.5 11c-.9.4-.9 1 .1 1.3l4.9 1.5 1.9 6c.2.7.5.8 1.1.4l2.7-2 5 3.7c.6.4 1.1.2 1.3-.6L23 4.5c.2-.9-.3-1.3-1-1.1zM9.7 14.2l8-5-6.4 5.8-.3 3.4-1.3-3.2z" /></svg>
+            </a>
+            <a href="https://wa.me/99365860666" aria-label="WhatsApp" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.6.1-1.7-.9-2.9-1.5-4-3.5-.3-.5.3-.5.8-1.5.1-.2 0-.4 0-.5-.1-.1-.6-1.5-.9-2.1-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3 2 3.1 4.9 4.3c1.8.8 2.5.8 3.4.7.5-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 00-8.5 15.3L2 22l4.8-1.5A10 10 0 1012 2z" /></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 data-i18n="footer.quickLinksTitle">Навигация</h4>
+          <ul class="footer-links">
+            <li><a href="#top" data-i18n="nav.home">Главная</a></li>
+            <li><a href="pages/about.html" data-i18n="nav.about">О нас</a></li>
+            <li><a href="pages/tours.html" data-i18n="nav.tours">Туры</a></li>
+            <li><a href="pages/news.html" data-i18n="nav.news">Новости</a></li>
+            <li><a href="pages/contacts.html" data-i18n="nav.contacts">Контакты</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 data-i18n="footer.servicesTitle">Услуги</h4>
+          <ul class="footer-links">
+            <li><a href="pages/services.html" data-i18n="servicesOverview.items.tours.title">Авторские туры</a></li>
+            <li><a href="pages/services.html" data-i18n="servicesOverview.items.transfer.title">Премиум-трансфер</a></li>
+            <li><a href="pages/services.html" data-i18n="servicesOverview.items.visa.title">Визовая поддержка</a></li>
+            <li><a href="pages/services.html" data-i18n="servicesOverview.items.tickets.title">Авиабилеты</a></li>
+            <li><a href="pages/services.html" data-i18n="servicesOverview.items.guides.title">Услуги гида</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 data-i18n="footer.contactsTitle">Контакты</h4>
+          <ul class="footer-links footer-contact">
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7zm0 9.5A2.5 2.5 0 1112 6.5a2.5 2.5 0 010 5z" /></svg>
+              <span data-i18n="contact.address">Туркменистан, г. Ашхабад, проспект Туркменбаши, 81</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 013 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1l-2.2 2.2z" /></svg>
+              <a href="tel:+99312227129">+993 (12) 22-71-29</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 013 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1l-2.2 2.2z" /></svg>
+              <a href="tel:+99365860666">+993 (65) 86-06-66</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 012 2v12a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2zm0 2v.5l8 5 8-5V6H4zm16 2.7l-7.4 4.6a1 1 0 01-1.2 0L4 8.7V18h16V8.7z" /></svg>
+              <a href="mailto:info@meridian.com.tm">info@meridian.com.tm</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="site-footer__bottom">
+        <span data-i18n-html="footer.copyright" data-year="2026">© 2026 Meridian Tourism DMC.</span>
+        <a href="#" data-i18n="footer.privacyPolicy">Политика конфиденциальности</a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ====================== ФОРМА-КВИЗ (модал) ====================== -->
+  <div class="bf-overlay" id="bookingForm" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="bfTitle">
+    <div class="bf-card">
+      <button type="button" class="bf-close" data-bf-close aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg>
+      </button>
+
+      <div class="bf-head">
+        <h3 class="bf-title" id="bfTitle" data-i18n="form.title">Заявка на путешествие</h3>
+        <p class="bf-subtitle" data-i18n="form.subtitle">Заполните 3 шага</p>
+      </div>
+
+      <!-- Прогресс -->
+      <div class="bf-progress">
+        <div class="bf-progress__step is-active" data-step="1">
+          <span class="bf-progress__dot">1</span>
+          <span class="bf-progress__label" data-i18n="form.step1">Направление</span>
+        </div>
+        <div class="bf-progress__line"></div>
+        <div class="bf-progress__step" data-step="2">
+          <span class="bf-progress__dot">2</span>
+          <span class="bf-progress__label" data-i18n="form.step2">Даты и дни</span>
+        </div>
+        <div class="bf-progress__line"></div>
+        <div class="bf-progress__step" data-step="3">
+          <span class="bf-progress__dot">3</span>
+          <span class="bf-progress__label" data-i18n="form.step3">Контакты</span>
+        </div>
+      </div>
+
+      <form class="bf-form" novalidate>
+        <!-- ===== Шаг 1: Направление ===== -->
+        <div class="bf-step is-active" data-bf-step="1">
+          <div class="field field--select">
+            <select id="bf-destination" name="destination" data-validate="required">
+              <option value=""></option>
+              <option value="nisa" data-i18n="destinations.items.nisa.name">Древняя Ниса</option>
+              <option value="merv" data-i18n="destinations.items.merv.name">Древний Мерв</option>
+              <option value="konyeUrgench" data-i18n="destinations.items.konyeUrgench.name">Куня-Ургенч</option>
+              <option value="darvaza" data-i18n="destinations.items.darvaza.name">Кратер Дарваза</option>
+              <option value="yangikala" data-i18n="destinations.items.yangikala.name">Каньоны Янгикала</option>
+              <option value="avaza" data-i18n="destinations.items.avaza.name">Аваза</option>
+              <option value="any" data-i18n="form.fields.anyDest">Любое</option>
+            </select>
+            <label for="bf-destination" data-i18n="form.fields.destination">Направление</label>
+            <span class="field__error" data-i18n="form.validation.required">Обязательное поле</span>
+          </div>
+
+          <div class="field">
+            <label class="field__label-block" data-i18n="form.fields.tourType" style="display:block;font-size:var(--fs-sm);color:var(--text-secondary);margin-bottom:.6rem;">Тип тура</label>
+            <div class="choice-grid">
+              <label class="choice is-selected">
+                <input type="radio" name="tourType" value="private" checked />
+                <span data-i18n="form.fields.tourTypePrivate">Частный</span>
+              </label>
+              <label class="choice">
+                <input type="radio" name="tourType" value="group" />
+                <span data-i18n="form.fields.tourTypeGroup">Групповой</span>
+              </label>
+              <label class="choice">
+                <input type="radio" name="tourType" value="business" />
+                <span data-i18n="form.fields.tourTypeBusiness">Деловой</span>
+              </label>
+              <label class="choice">
+                <input type="radio" name="tourType" value="vip" />
+                <span data-i18n="form.fields.tourTypeVip">VIP</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== Шаг 2: Даты и дни ===== -->
+        <div class="bf-step" data-bf-step="2">
+          <div class="field">
+            <input type="text" id="bf-date" name="date" data-validate="date" placeholder=" " />
+            <label for="bf-date" data-i18n="form.fields.date">Желаемая дата</label>
+            <span class="field__error" data-i18n="form.validation.date">Укажите дату</span>
+          </div>
+          <div class="field field--row" style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+            <div class="field">
+              <input type="number" id="bf-days" name="days" min="1" max="30" placeholder=" " />
+              <label for="bf-days" data-i18n="form.fields.days">Дней</label>
+            </div>
+            <div class="field">
+              <input type="number" id="bf-guests" name="guests" min="1" max="20" placeholder=" " />
+              <label for="bf-guests" data-i18n="form.fields.guests">Гостей</label>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== Шаг 3: Контакты ===== -->
+        <div class="bf-step" data-bf-step="3">
+          <div class="field">
+            <input type="text" id="bf-name" name="name" data-validate="name" placeholder=" " />
+            <label for="bf-name" data-i18n="form.fields.name">Ваше имя</label>
+            <span class="field__error" data-i18n="form.validation.name">Минимум 2 символа</span>
+          </div>
+          <div class="field">
+            <input type="email" id="bf-email" name="email" data-validate="email" placeholder=" " />
+            <label for="bf-email" data-i18n="form.fields.email">Электронная почта</label>
+            <span class="field__error" data-i18n="form.validation.email">Неверный формат email</span>
+          </div>
+          <div class="field">
+            <input type="tel" id="bf-phone" name="phone" data-validate="phone" data-mask="phone" placeholder=" " autocomplete="tel" />
+            <label for="bf-phone" data-i18n="form.fields.phone">Телефон</label>
+            <span class="field__error" data-i18n="form.validation.phone">Введите корректный номер</span>
+            <svg class="field__check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7" /></svg>
+          </div>
+          <div class="field">
+            <textarea id="bf-message" name="message" placeholder=" "></textarea>
+            <label for="bf-message" data-i18n="form.fields.message">Пожелания (необязательно)</label>
+          </div>
+        </div>
+
+        <!-- Навигация -->
+        <div class="bf-actions">
+          <button type="button" class="btn btn--ghost bf-back" data-bf-back aria-label="Back"></button>
+          <button type="button" class="btn btn--gold bf-next" data-bf-next data-magnetic="0.3" data-i18n="form.next">Далее</button>
+          <button type="submit" class="btn btn--gold bf-submit" data-magnetic="0.3">
+            <span class="bf-spinner"></span>
+            <span data-i18n="form.submit">Отправить заявку</span>
+          </button>
+        </div>
+      </form>
+
+      <!-- Состояние успеха -->
+      <div class="bf-success">
+        <svg class="bf-success__icon" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="42" />
+          <path d="M32 52l12 12l24-26" />
+        </svg>
+        <h3 class="bf-success__title" data-i18n="form.success.title">Спасибо!</h3>
+        <p class="bf-success__text" data-i18n="form.success.text">Ваша заявка принята.</p>
+        <button type="button" class="btn btn--ghost" data-bf-done data-i18n="form.success.close">Отлично</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================= СКРИПТЫ (порядок важен) ================== -->
+  <!-- i18n должен идти первым (загрузка переводов), затем observer/cursor/header, main — последним -->
+  <script src="assets/js/core/i18n.js"></script>
+  <script src="assets/js/core/observer.js"></script>
+  <script src="assets/js/components/cursor.js"></script>
+  <script src="assets/js/components/header.js"></script>
+  <script src="assets/js/components/form.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
