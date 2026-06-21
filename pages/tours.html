@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Туры — Meridian Tourism DMC</title>
+  <meta name="description" content="Авторские туры по Туркменистану: Мерв, Ниса, Куня-Ургенч, Дарваза, Янгикала, Аваза. Интерактивная карта маршрутов." />
+  <meta name="theme-color" content="#06121d" />
+  <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg" />
+  <link rel="stylesheet" href="../assets/css/main.css" />
+</head>
+<body>
+
+  <!-- ============================== ШАПКА ============================== -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+
+      <a href="../index.html" class="brand-mark" data-magnetic="0.2">
+        Meridian<span>.</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="../index.html" data-i18n="nav.home">Главная</a></li>
+          <li><a href="../index.html#about" data-i18n="nav.about">О нас</a></li>
+          <li><a href="tours.html" style="color:var(--accent)" data-i18n="nav.tours">Туры</a></li>
+          <li><a href="../index.html#services" data-i18n="nav.services">Услуги</a></li>
+          <li><a href="../index.html#contacts" data-i18n="nav.contacts">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch" role="group" data-i18n-aria="nav.langSwitchAria" aria-label="Сменить язык">
+          <button type="button" data-lang-switch data-lang="ru">RU</button>
+          <button type="button" data-lang-switch data-lang="tk">TK</button>
+          <button type="button" data-lang-switch data-lang="en">EN</button>
+        </div>
+        <button type="button" class="btn btn--gold btn--sm btn--glow" data-magnetic="0.4" data-open-booking data-i18n="nav.cta">Забронировать</button>
+        <button class="nav-toggle" type="button" aria-expanded="false" data-i18n-aria="nav.menuAria" aria-label="Открыть меню">
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+
+    <nav class="mobile-menu" aria-label="Mobile">
+      <a href="../index.html" data-i18n="nav.home">Главная</a>
+      <a href="../index.html#about" data-i18n="nav.about">О нас</a>
+      <a href="tours.html" data-i18n="nav.tours">Туры</a>
+      <a href="../index.html#services" data-i18n="nav.services">Услуги</a>
+      <a href="../index.html#contacts" data-i18n="nav.contacts">Контакты</a>
+      <div class="mobile-lang-switch">
+        <button type="button" data-lang-switch data-lang="ru">RU</button>
+        <button type="button" data-lang-switch data-lang="tk">TK</button>
+        <button type="button" data-lang-switch data-lang="en">EN</button>
+      </div>
+      <div class="mobile-menu__footer">
+        <a href="tel:+99365860666">+993 (65) 86-06-66</a>
+        <a href="mailto:info@meridian.com.tm">info@meridian.com.tm</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========================== HERO СТРАНИЦЫ ======================== -->
+    <section class="tours-hero">
+      <div class="tours-hero__bg"></div>
+      <div class="tours-hero__pattern"></div>
+      <div class="container tours-hero__content" data-reveal>
+        <div class="crumbs">
+          <a href="../index.html" data-i18n="nav.home">Главная</a>
+          <span>/</span>
+          <span data-i18n="nav.tours">Туры</span>
+        </div>
+        <span class="hero__kicker" data-i18n="toursPage.heroKicker">Маршруты Шёлкового пути</span>
+        <h1 class="tours-hero__title" data-i18n="toursPage.heroTitle">Туры по Туркменистану</h1>
+        <p class="tours-hero__subtitle" data-i18n="toursPage.heroSubtitle">От древних городов до песков Каракумов.</p>
+      </div>
+    </section>
+
+    <!-- ==================== ИНТЕРАКТИВНАЯ КАРТА ======================= -->
+    <section class="section tours-map-section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="section-head__kicker" data-i18n="toursPage.mapTitle">Интерактивная карта</span>
+          <h2 class="section-head__title" data-i18n="toursPage.mapTitle">Интерактивная карта маршрутов</h2>
+          <p class="section-head__subtitle" data-i18n="toursPage.mapHint">Наведите на маршрут — линия прорисуется</p>
+        </div>
+
+        <div class="tours-map-layout" data-reveal>
+
+          <!-- SVG-карта Туркменистана (inline для управления путями) -->
+          <svg class="tours-map" viewBox="0 0 800 520" role="img" aria-label="Карта маршрутов Туркменистана">
+            <!-- Каспийское море (запад) -->
+            <path class="caspian" d="M 0,110 Q 22,150 24,195 Q 20,250 42,300 Q 62,345 96,362 Q 78,305 88,245 Q 94,185 100,145 Q 96,112 72,96 Z" />
+
+            <!-- Контур страны -->
+            <path class="country" d="M 130,80 Q 215,62 300,65 Q 390,68 480,78 Q 560,82 640,92 Q 710,100 735,130 Q 752,170 745,210 Q 738,250 710,275 Q 685,300 660,320 Q 630,340 600,355 Q 575,375 545,395 Q 500,410 460,415 Q 415,422 370,425 Q 320,424 270,420 Q 225,415 185,405 Q 160,390 140,365 Q 125,340 115,305 Q 102,270 95,235 Q 98,200 105,165 Q 112,120 130,80 Z" />
+
+            <!-- Маршруты (прорисовываются при наведении) -->
+            <path class="route" data-route="merv"          d="M 385,405 Q 470,395 555,385" />
+            <path class="route" data-route="darvaza"       d="M 385,405 Q 380,325 375,245" />
+            <path class="route" data-route="konyeUrgench"  d="M 385,405 Q 380,325 375,245 Q 370,185 365,125" />
+            <path class="route" data-route="yangikala"     d="M 385,405 Q 295,355 205,300 Q 180,255 155,210" />
+            <path class="route" data-route="avaza"         d="M 385,405 Q 250,330 115,255 Q 107,215 100,180" />
+            <path class="route" data-route="nisa"          d="M 385,405 Q 372,420 360,432" />
+
+            <!-- Города-узлы -->
+            <g>
+              <!-- Ашхабад (хаб) -->
+              <circle class="city is-hub" cx="385" cy="405" r="6" data-routes="nisa merv darvaza konyeUrgench yangikala avaza" />
+              <text class="city-label is-hub" x="385" y="448" text-anchor="middle">Ashgabat</text>
+
+              <!-- Ниса -->
+              <circle class="city" cx="360" cy="432" r="4.5" data-routes="nisa" />
+              <text class="city-label" x="345" y="452" text-anchor="end">Nisa</text>
+
+              <!-- Мерв / Мары -->
+              <circle class="city" cx="555" cy="385" r="4.5" data-routes="merv" />
+              <text class="city-label" x="568" y="380">Merv</text>
+
+              <!-- Дарваза -->
+              <circle class="city" cx="375" cy="245" r="4.5" data-routes="darvaza konyeUrgench" />
+              <text class="city-label" x="390" y="242">Darvaza</text>
+
+              <!-- Куня-Ургенч / Дашогуз -->
+              <circle class="city" cx="365" cy="125" r="4.5" data-routes="konyeUrgench" />
+              <text class="city-label" x="380" y="122">Kunya-Urgench</text>
+
+              <!-- Балканабат -->
+              <circle class="city" cx="205" cy="300" r="4" data-routes="yangikala" />
+              <text class="city-label" x="218" y="304">Balkanabat</text>
+
+              <!-- Янгикала -->
+              <circle class="city" cx="155" cy="210" r="4.5" data-routes="yangikala" />
+              <text class="city-label" x="148" y="200" text-anchor="end">Yangikala</text>
+
+              <!-- Туркменбаши -->
+              <circle class="city" cx="115" cy="255" r="4" data-routes="avaza" />
+              <text class="city-label" x="108" y="270" text-anchor="end">Turkmenbashi</text>
+
+              <!-- Аваза -->
+              <circle class="city" cx="100" cy="180" r="4.5" data-routes="avaza" />
+              <text class="city-label" x="92" y="172" text-anchor="end">Avaza</text>
+            </g>
+          </svg>
+
+          <!-- Список маршрутов -->
+          <div class="route-list">
+            <div class="route-card" data-route-id="darvaza" tabindex="0">
+              <span class="route-card__dot"></span>
+              <div class="route-card__body">
+                <div class="route-card__name" data-i18n="destinations.items.darvaza.name">Кратер Дарваза</div>
+                <div class="route-card__meta"><span data-i18n="toursPage.fromAshgabat">из Ашхабада</span> · <span data-i18n="toursPage.routes.darvaza.distance">270 км</span></div>
+              </div>
+              <span class="route-card__arrow">→</span>
+            </div>
+            <div class="route-card" data-route-id="merv" tabindex="0">
+              <span class="route-card__dot"></span>
+              <div class="route-card__body">
+                <div class="route-card__name" data-i18n="destinations.items.merv.name">Древний Мерв</div>
+                <div class="route-card__meta"><span data-i18n="toursPage.fromAshgabat">из Ашхабада</span> · <span data-i18n="toursPage.routes.merv.distance">380 км</span></div>
+              </div>
+              <span class="route-card__arrow">→</span>
+            </div>
+            <div class="route-card" data-route-id="konyeUrgench" tabindex="0">
+              <span class="route-card__dot"></span>
+              <div class="route-card__body">
+                <div class="route-card__name" data-i18n="destinations.items.konyeUrgench.name">Куня-Ургенч</div>
+                <div class="route-card__meta"><span data-i18n="toursPage.fromAshgabat">из Ашхабада</span> · <span data-i18n="toursPage.routes.konyeUrgench.distance">480 км</span></div>
+              </div>
+              <span class="route-card__arrow">→</span>
+            </div>
+            <div class="route-card" data-route-id="yangikala" tabindex="0">
+              <span class="route-card__dot"></span>
+              <div class="route-card__body">
+                <div class="route-card__name" data-i18n="destinations.items.yangikala.name">Каньоны Янгикала</div>
+                <div class="route-card__meta"><span data-i18n="toursPage.fromAshgabat">из Ашхабада</span> · <span data-i18n="toursPage.routes.yangikala.distance">420 км</span></div>
+              </div>
+              <span class="route-card__arrow">→</span>
+            </div>
+            <div class="route-card" data-route-id="avaza" tabindex="0">
+              <span class="route-card__dot"></span>
+              <div class="route-card__body">
+                <div class="route-card__name" data-i18n="destinations.items.avaza.name">Аваза</div>
+                <div class="route-card__meta"><span data-i18n="toursPage.fromAshgabat">из Ашхабада</span> · <span data-i18n="toursPage.routes.avaza.distance">560 км</span></div>
+              </div>
+              <span class="route-card__arrow">→</span>
+            </div>
+            <div class="route-card" data-route-id="nisa" tabindex="0">
+              <span class="route-card__dot"></span>
+              <div class="route-card__body">
+                <div class="route-card__name" data-i18n="destinations.items.nisa.name">Древняя Ниса</div>
+                <div class="route-card__meta"><span data-i18n="toursPage.fromAshgabat">из Ашхабада</span> · <span data-i18n="toursPage.routes.nisa.distance">20 км</span></div>
+              </div>
+              <span class="route-card__arrow">→</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== ДЕТАЛЬНЫЕ КАРТОЧКИ ====================== -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <h2 class="section-head__title" data-i18n="destinations.title">Популярные направления</h2>
+        </div>
+
+        <div class="tour-detail-grid">
+          <!-- Дарваза -->
+          <article class="tour-detail" data-reveal>
+            <div class="tour-detail__media">
+              <span class="tour-detail__tag" data-i18n="toursPage.routes.darvaza.duration">2 дня</span>
+              <div class="dest-card__bg" style="background: radial-gradient(circle at 50% 60%, #ff7a2a, #5a1a02 60%, #0a0500), linear-gradient(160deg,#2a1006,#000);"></div>
+            </div>
+            <div class="tour-detail__info">
+              <h3 class="tour-detail__name" data-i18n="destinations.items.darvaza.name">Кратер Дарваза</h3>
+              <div class="tour-detail__meta">
+                <div><b data-i18n="toursPage.routes.darvaza.duration">2 дня</b><span data-i18n="toursPage.duration">Длительность</span></div>
+                <div><b data-i18n="toursPage.routes.darvaza.distance">270 км</b><span data-i18n="toursPage.distance">Расстояние</span></div>
+              </div>
+              <div class="tour-detail__hl-label" data-i18n="toursPage.highlightsLabel">Что вы увидите</div>
+              <p class="tour-detail__highlights" data-i18n="toursPage.routes.darvaza.highlights">Пылающий кратер на закате.</p>
+              <button type="button" class="btn btn--text" data-open-booking data-i18n="destinations.viewTour">Открыть тур</button>
+            </div>
+          </article>
+
+          <!-- Мерв -->
+          <article class="tour-detail" data-reveal data-reveal-delay="100">
+            <div class="tour-detail__media">
+              <span class="tour-detail__tag" data-i18n="toursPage.routes.merv.duration">2 дня</span>
+              <div class="dest-card__bg" style="background: radial-gradient(circle at 70% 30%, #b07d4e, #3a2410), linear-gradient(160deg,#c08a54,#1e1208);"></div>
+            </div>
+            <div class="tour-detail__info">
+              <h3 class="tour-detail__name" data-i18n="destinations.items.merv.name">Древний Мерв</h3>
+              <div class="tour-detail__meta">
+                <div><b data-i18n="toursPage.routes.merv.duration">2 дня</b><span data-i18n="toursPage.duration">Длительность</span></div>
+                <div><b data-i18n="toursPage.routes.merv.distance">380 км</b><span data-i18n="toursPage.distance">Расстояние</span></div>
+              </div>
+              <div class="tour-detail__hl-label" data-i18n="toursPage.highlightsLabel">Что вы увидите</div>
+              <p class="tour-detail__highlights" data-i18n="toursPage.routes.merv.highlights">Мавзолей Санджара.</p>
+              <button type="button" class="btn btn--text" data-open-booking data-i18n="destinations.viewTour">Открыть тур</button>
+            </div>
+          </article>
+
+          <!-- Куня-Ургенч -->
+          <article class="tour-detail" data-reveal>
+            <div class="tour-detail__media">
+              <span class="tour-detail__tag" data-i18n="toursPage.routes.konyeUrgench.duration">3 дня</span>
+              <div class="dest-card__bg" style="background: radial-gradient(circle at 50% 30%, #4a6a7a, #122434), linear-gradient(160deg,#5b7f92,#0c1820);"></div>
+            </div>
+            <div class="tour-detail__info">
+              <h3 class="tour-detail__name" data-i18n="destinations.items.konyeUrgench.name">Куня-Ургенч</h3>
+              <div class="tour-detail__meta">
+                <div><b data-i18n="toursPage.routes.konyeUrgench.duration">3 дня</b><span data-i18n="toursPage.duration">Длительность</span></div>
+                <div><b data-i18n="toursPage.routes.konyeUrgench.distance">480 км</b><span data-i18n="toursPage.distance">Расстояние</span></div>
+              </div>
+              <div class="tour-detail__hl-label" data-i18n="toursPage.highlightsLabel">Что вы увидите</div>
+              <p class="tour-detail__highlights" data-i18n="toursPage.routes.konyeUrgench.highlights">Минарет Кутлуг-Тимура.</p>
+              <button type="button" class="btn btn--text" data-open-booking data-i18n="destinations.viewTour">Открыть тур</button>
+            </div>
+          </article>
+
+          <!-- Янгикала -->
+          <article class="tour-detail" data-reveal data-reveal-delay="100">
+            <div class="tour-detail__media">
+              <span class="tour-detail__tag" data-i18n="toursPage.routes.yangikala.duration">3 дня</span>
+              <div class="dest-card__bg" style="background: radial-gradient(circle at 40% 40%, #e8c8a0, #c45a3a 50%, #6a2a1a), linear-gradient(160deg,#d98a6a,#3a1810);"></div>
+            </div>
+            <div class="tour-detail__info">
+              <h3 class="tour-detail__name" data-i18n="destinations.items.yangikala.name">Каньоны Янгикала</h3>
+              <div class="tour-detail__meta">
+                <div><b data-i18n="toursPage.routes.yangikala.duration">3 дня</b><span data-i18n="toursPage.duration">Длительность</span></div>
+                <div><b data-i18n="toursPage.routes.yangikala.distance">420 км</b><span data-i18n="toursPage.distance">Расстояние</span></div>
+              </div>
+              <div class="tour-detail__hl-label" data-i18n="toursPage.highlightsLabel">Что вы увидите</div>
+              <p class="tour-detail__highlights" data-i18n="toursPage.routes.yangikala.highlights">Разноцветные каньоны.</p>
+              <button type="button" class="btn btn--text" data-open-booking data-i18n="destinations.viewTour">Открыть тур</button>
+            </div>
+          </article>
+
+          <!-- Аваза -->
+          <article class="tour-detail" data-reveal>
+            <div class="tour-detail__media">
+              <span class="tour-detail__tag" data-i18n="toursPage.routes.avaza.duration">3 дня</span>
+              <div class="dest-card__bg" style="background: radial-gradient(circle at 50% 20%, #5fbfd8, #1a5a78 60%, #062a3a), linear-gradient(160deg,#3a9ab8,#04222e);"></div>
+            </div>
+            <div class="tour-detail__info">
+              <h3 class="tour-detail__name" data-i18n="destinations.items.avaza.name">Аваза</h3>
+              <div class="tour-detail__meta">
+                <div><b data-i18n="toursPage.routes.avaza.duration">3 дня</b><span data-i18n="toursPage.duration">Длительность</span></div>
+                <div><b data-i18n="toursPage.routes.avaza.distance">560 км</b><span data-i18n="toursPage.distance">Расстояние</span></div>
+              </div>
+              <div class="tour-detail__hl-label" data-i18n="toursPage.highlightsLabel">Что вы увидите</div>
+              <p class="tour-detail__highlights" data-i18n="toursPage.routes.avaza.highlights">Золотые пляжи Каспия.</p>
+              <button type="button" class="btn btn--text" data-open-booking data-i18n="destinations.viewTour">Открыть тур</button>
+            </div>
+          </article>
+
+          <!-- Ниса -->
+          <article class="tour-detail" data-reveal data-reveal-delay="100">
+            <div class="tour-detail__media">
+              <span class="tour-detail__tag" data-i18n="toursPage.routes.nisa.duration">1 день</span>
+              <div class="dest-card__bg" style="background: radial-gradient(circle at 30% 20%, #6b5a3e, #2a2418), linear-gradient(160deg,#7a6a4a,#1a1610);"></div>
+            </div>
+            <div class="tour-detail__info">
+              <h3 class="tour-detail__name" data-i18n="destinations.items.nisa.name">Древняя Ниса</h3>
+              <div class="tour-detail__meta">
+                <div><b data-i18n="toursPage.routes.nisa.duration">1 день</b><span data-i18n="toursPage.duration">Длительность</span></div>
+                <div><b data-i18n="toursPage.routes.nisa.distance">20 км</b><span data-i18n="toursPage.distance">Расстояние</span></div>
+              </div>
+              <div class="tour-detail__hl-label" data-i18n="toursPage.highlightsLabel">Что вы увидите</div>
+              <p class="tour-detail__highlights" data-i18n="toursPage.routes.nisa.highlights">Развалины парфянской крепости.</p>
+              <button type="button" class="btn btn--text" data-open-booking data-i18n="destinations.viewTour">Открыть тур</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= CTA-БАННЕР =========================== -->
+    <section class="section--tight">
+      <div class="container" style="padding:0;">
+        <div class="cta-band frame-corner" data-reveal="scale">
+          <div class="cta-band__content">
+            <h2 class="cta-band__title" data-i18n="ctaBand.title">Спланируем ваше путешествие?</h2>
+            <p class="cta-band__subtitle" data-i18n="ctaBand.subtitle">Индивидуальное предложение за 24 часа.</p>
+          </div>
+          <div class="cta-band__action">
+            <button type="button" class="btn btn--gold btn--glow" data-magnetic="0.4" data-open-booking data-i18n="ctaBand.button">Оставить заявку</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================= ФУТЕР ============================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__top">
+        <div class="site-footer__brand">
+          <div class="brand-mark">Meridian<span>.</span></div>
+          <p class="site-footer__about" data-i18n="footer.aboutText">Лидер рынка въездного туризма.</p>
+          <div class="site-footer__socials">
+            <a href="https://instagram.com/meridian.tourism.tm" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 3.2a6.6 6.6 0 100 13.2 6.6 6.6 0 000-13.2zm0 10.9a4.3 4.3 0 110-8.6 4.3 4.3 0 010 8.6zm8.4-11.1a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" /></svg></a>
+            <a href="https://t.me/meridian_tourism_" aria-label="Telegram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M22 3.4L2.5 11c-.9.4-.9 1 .1 1.3l4.9 1.5 1.9 6c.2.7.5.8 1.1.4l2.7-2 5 3.7c.6.4 1.1.2 1.3-.6L23 4.5c.2-.9-.3-1.3-1-1.1zM9.7 14.2l8-5-6.4 5.8-.3 3.4-1.3-3.2z" /></svg></a>
+            <a href="https://wa.me/99365860666" aria-label="WhatsApp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.6.1-1.7-.9-2.9-1.5-4-3.5-.3-.5.3-.5.8-1.5.1-.2 0-.4 0-.5-.1-.1-.6-1.5-.9-2.1-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3 2 3.1 4.9 4.3c1.8.8 2.5.8 3.4.7.5-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 00-8.5 15.3L2 22l4.8-1.5A10 10 0 1012 2z" /></svg></a>
+          </div>
+        </div>
+        <div>
+          <h4 data-i18n="footer.quickLinksTitle">Навигация</h4>
+          <ul class="footer-links">
+            <li><a href="../index.html" data-i18n="nav.home">Главная</a></li>
+            <li><a href="../index.html#about" data-i18n="nav.about">О нас</a></li>
+            <li><a href="tours.html" data-i18n="nav.tours">Туры</a></li>
+            <li><a href="../index.html#contacts" data-i18n="nav.contacts">Контакты</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.servicesTitle">Услуги</h4>
+          <ul class="footer-links">
+            <li><a href="../index.html#services" data-i18n="servicesOverview.items.tours.title">Авторские туры</a></li>
+            <li><a href="../index.html#services" data-i18n="servicesOverview.items.transfer.title">Премиум-трансфер</a></li>
+            <li><a href="../index.html#services" data-i18n="servicesOverview.items.visa.title">Визовая поддержка</a></li>
+            <li><a href="../index.html#services" data-i18n="servicesOverview.items.guides.title">Услуги гида</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.contactsTitle">Контакты</h4>
+          <ul class="footer-links footer-contact">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7zm0 9.5A2.5 2.5 0 1112 6.5a2.5 2.5 0 010 5z" /></svg><span data-i18n="contact.address">Туркменистан, г. Ашхабад, проспект Туркменбаши, 81</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 013 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1l-2.2 2.2z" /></svg><a href="tel:+99312227129">+993 (12) 22-71-29</a></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16a2 2 0 012 2v12a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2z" /></svg><a href="mailto:info@meridian.com.tm">info@meridian.com.tm</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <span data-i18n-html="footer.copyright" data-year="2026">© 2026 Meridian Tourism DMC.</span>
+        <a href="#" data-i18n="footer.privacyPolicy">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ====================== ФОРМА-КВИЗ (модал) ====================== -->
+  <div class="bf-overlay" id="bookingForm" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="bfTitle">
+    <div class="bf-card">
+      <button type="button" class="bf-close" data-bf-close aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg></button>
+      <div class="bf-head">
+        <h3 class="bf-title" id="bfTitle" data-i18n="form.title">Заявка на путешествие</h3>
+        <p class="bf-subtitle" data-i18n="form.subtitle">Заполните 3 шага</p>
+      </div>
+      <div class="bf-progress">
+        <div class="bf-progress__step is-active" data-step="1"><span class="bf-progress__dot">1</span><span class="bf-progress__label" data-i18n="form.step1">Направление</span></div>
+        <div class="bf-progress__line"></div>
+        <div class="bf-progress__step" data-step="2"><span class="bf-progress__dot">2</span><span class="bf-progress__label" data-i18n="form.step2">Даты и дни</span></div>
+        <div class="bf-progress__line"></div>
+        <div class="bf-progress__step" data-step="3"><span class="bf-progress__dot">3</span><span class="bf-progress__label" data-i18n="form.step3">Контакты</span></div>
+      </div>
+      <form class="bf-form" novalidate>
+        <div class="bf-step is-active" data-bf-step="1">
+          <div class="field field--select">
+            <select id="bf-destination" name="destination" data-validate="required">
+              <option value=""></option>
+              <option value="darvaza" data-i18n="destinations.items.darvaza.name">Кратер Дарваза</option>
+              <option value="merv" data-i18n="destinations.items.merv.name">Древний Мерв</option>
+              <option value="konyeUrgench" data-i18n="destinations.items.konyeUrgench.name">Куня-Ургенч</option>
+              <option value="nisa" data-i18n="destinations.items.nisa.name">Древняя Ниса</option>
+              <option value="yangikala" data-i18n="destinations.items.yangikala.name">Каньоны Янгикала</option>
+              <option value="avaza" data-i18n="destinations.items.avaza.name">Аваза</option>
+              <option value="any" data-i18n="form.fields.anyDest">Любое</option>
+            </select>
+            <label for="bf-destination" data-i18n="form.fields.destination">Направление</label>
+            <span class="field__error" data-i18n="form.validation.required">Обязательное поле</span>
+          </div>
+          <div class="field">
+            <label style="display:block;font-size:var(--fs-sm);color:var(--text-secondary);margin-bottom:.6rem;" data-i18n="form.fields.tourType">Тип тура</label>
+            <div class="choice-grid">
+              <label class="choice is-selected"><input type="radio" name="tourType" value="private" checked /><span data-i18n="form.fields.tourTypePrivate">Частный</span></label>
+              <label class="choice"><input type="radio" name="tourType" value="group" /><span data-i18n="form.fields.tourTypeGroup">Групповой</span></label>
+              <label class="choice"><input type="radio" name="tourType" value="business" /><span data-i18n="form.fields.tourTypeBusiness">Деловой</span></label>
+              <label class="choice"><input type="radio" name="tourType" value="vip" /><span data-i18n="form.fields.tourTypeVip">VIP</span></label>
+            </div>
+          </div>
+        </div>
+        <div class="bf-step" data-bf-step="2">
+          <div class="field"><input type="text" id="bf-date" name="date" data-validate="date" placeholder=" " /><label for="bf-date" data-i18n="form.fields.date">Желаемая дата</label><span class="field__error" data-i18n="form.validation.date">Укажите дату</span></div>
+          <div class="field" style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+            <div class="field"><input type="number" id="bf-days" name="days" min="1" max="30" placeholder=" " /><label for="bf-days" data-i18n="form.fields.days">Дней</label></div>
+            <div class="field"><input type="number" id="bf-guests" name="guests" min="1" max="20" placeholder=" " /><label for="bf-guests" data-i18n="form.fields.guests">Гостей</label></div>
+          </div>
+        </div>
+        <div class="bf-step" data-bf-step="3">
+          <div class="field"><input type="text" id="bf-name" name="name" data-validate="name" placeholder=" " /><label for="bf-name" data-i18n="form.fields.name">Ваше имя</label><span class="field__error" data-i18n="form.validation.name">Минимум 2 символа</span></div>
+          <div class="field"><input type="email" id="bf-email" name="email" data-validate="email" placeholder=" " /><label for="bf-email" data-i18n="form.fields.email">Электронная почта</label><span class="field__error" data-i18n="form.validation.email">Неверный формат email</span></div>
+          <div class="field"><input type="tel" id="bf-phone" name="phone" data-validate="phone" data-mask="phone" placeholder=" " autocomplete="tel" /><label for="bf-phone" data-i18n="form.fields.phone">Телефон</label><span class="field__error" data-i18n="form.validation.phone">Введите корректный номер</span><svg class="field__check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7" /></svg></div>
+          <div class="field"><textarea id="bf-message" name="message" placeholder=" "></textarea><label for="bf-message" data-i18n="form.fields.message">Пожелания (необязательно)</label></div>
+        </div>
+        <div class="bf-actions">
+          <button type="button" class="btn btn--ghost bf-back" data-bf-back aria-label="Back"></button>
+          <button type="button" class="btn btn--gold bf-next" data-bf-next data-magnetic="0.3" data-i18n="form.next">Далее</button>
+          <button type="submit" class="btn btn--gold bf-submit" data-magnetic="0.3"><span class="bf-spinner"></span><span data-i18n="form.submit">Отправить заявку</span></button>
+        </div>
+      </form>
+      <div class="bf-success">
+        <svg class="bf-success__icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="42" /><path d="M32 52l12 12l24-26" /></svg>
+        <h3 class="bf-success__title" data-i18n="form.success.title">Спасибо!</h3>
+        <p class="bf-success__text" data-i18n="form.success.text">Ваша заявка принята.</p>
+        <button type="button" class="btn btn--ghost" data-bf-done data-i18n="form.success.close">Отлично</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================ СКРИПТЫ ============================ -->
+  <script src="../assets/js/core/i18n.js"></script>
+  <script src="../assets/js/core/observer.js"></script>
+  <script src="../assets/js/components/cursor.js"></script>
+  <script src="../assets/js/components/header.js"></script>
+  <script src="../assets/js/components/map.js"></script>
+  <script src="../assets/js/components/form.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
